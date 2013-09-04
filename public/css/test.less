@@ -1,0 +1,39 @@
+/* clearfix class */
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    *zoom:1;
+}
+body {
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.record-container {
+    padding: 0 15px 15px;
+    border: 1px dashed #ccc;
+    margin: 15px 0 0 0;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.sub-active-link {
+    font-weight: bold;
+    color: #000 !important;
+}

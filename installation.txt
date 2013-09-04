@@ -1,0 +1,5 @@
+Installation instructions
+
+1. Run file englishdom.sql in phpMyAdmin or other export/import software.
+2. Set DB credentials in file config\autoload\local.php
+3. Enjoy!
